@@ -406,7 +406,7 @@ figure a:hover {
   flex-direction: column;
  }
  .experience {
-   border-bottom: dotted 1px #444;
+   /* border-bottom: dotted 1px #444; */
  }
 }
 
@@ -553,5 +553,22 @@ figure a:hover {
   /* mywork */
   .mywork .layout-content {
     padding: 0;
+  }
+
+  /* resume */
+  .resume h3 {
+   font-size: 0;
+  }
+
+  .resume .underline {
+    padding-bottom: 0;
+    border-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .resume .mobile-underline {
+    padding-bottom: 0.8rem;
+    border-bottom: 0.1rem solid #444;
+    margin-bottom: 1.5rem;
   }
 }
